@@ -1,6 +1,5 @@
 numpy
 pandas
-sys
 sklearn
 scipy
 matplotlib.pyplot
