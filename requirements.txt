@@ -1,0 +1,10 @@
+numpy
+pandas
+os
+sys
+sklearn
+scipy
+matplotlib.pyplot
+seaborn
+PIL
+streamlit
