@@ -6,8 +6,8 @@
 
 import numpy as np
 import pandas as pd
-import os
-import sys
+#import os
+#import sys
 import sklearn
 import scipy
 import matplotlib.pyplot as plt
@@ -16,7 +16,7 @@ pd.set_option('display.max_columns', None)
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
-from PIL import Image
+#from PIL import Image
 import streamlit as st
 from sklearn.metrics import classification_report, roc_curve, precision_recall_curve, roc_auc_score
 from sklearn.naive_bayes import MultinomialNB
@@ -24,8 +24,8 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import classification_report,accuracy_score
 from sklearn.ensemble import IsolationForest
 from sklearn.neighbors import LocalOutlierFactor
-from sklearn.svm import OneClassSVM
-from pylab import rcParams
+#from sklearn.svm import OneClassSVM
+#from pylab import rcParams
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
@@ -38,7 +38,7 @@ st.write("""
 
 # Open and Display the image
 
-image = Image.open('D:/AppDeployment/Personal-Loan-Prediction/Personal-Loan-Img.png')
+image = Image.open('https://github.com/vireshsaini/Personal-Loan-Prediction/main/Personal-Loan-Img.png')
 st.image(image, caption='ML Modeling', use_column_width=True)
 
 # Data upload by choosing the data files form the destination
