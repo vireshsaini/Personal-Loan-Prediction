@@ -20,7 +20,7 @@ from PIL import Image
 import streamlit as st
 from sklearn.metrics import classification_report, roc_curve, precision_recall_curve, roc_auc_score
 from sklearn.naive_bayes import MultinomialNB
-from imblearn.over_sampling import SMOTE
+#from imblearn.over_sampling import SMOTE
 from sklearn.metrics import classification_report,accuracy_score
 from sklearn.ensemble import IsolationForest
 from sklearn.neighbors import LocalOutlierFactor
