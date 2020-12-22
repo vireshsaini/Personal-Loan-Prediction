@@ -2,7 +2,7 @@ numpy
 pandas
 sklearn
 scipy
-matplotlib.pyplot
+matplotlib
 seaborn
 PIL
 streamlit
