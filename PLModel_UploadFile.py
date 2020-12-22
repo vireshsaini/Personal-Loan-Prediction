@@ -38,8 +38,8 @@ st.write("""
 
 # Open and Display the image
 
-image = Image.open('https://github.com/vireshsaini/Personal-Loan-Prediction/blob/main/Personal-Loan-Img.png')
-st.image(image, caption='ML Modeling', use_column_width=True)
+#image = Image.open('https://github.com/vireshsaini/Personal-Loan-Prediction/blob/main/Personal-Loan-Img.png')
+#st.image(image, caption='ML Modeling', use_column_width=True)
 
 # Data upload by choosing the data files form the destination
 #st.subheader('Upload Dataset')
