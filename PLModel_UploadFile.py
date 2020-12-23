@@ -37,7 +37,7 @@ st.write("""
 """)
 
 # Open and Display the image
-
+![](Personal-Loan-Img.png)
 #image = Image.open('https://github.com/vireshsaini/Personal-Loan-Prediction/blob/main/Personal-Loan-Img.png')
 #st.image(image, caption='ML Modeling', use_column_width=True)
 
